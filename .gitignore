@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+# Large files: downloaded at startup from Hugging Face (see deploy_files.txt)
+data/processed/
+outputs/tuning/models/xgboost_tuned/xgboost_tuned.json
+outputs/tuning/models/catboost_tuned/catboost_tuned.cbm
+outputs/tuning/predictions/

@@ -1,0 +1,10 @@
+experiment,n_train_rows,test_subset,n_test_rows,mae,rmse,r2
+baseline_full_train_raw_price,1192213,full,199939,812845.89,8708417.67,0.1734
+baseline_full_train_raw_price,1192213,normal_price_(<=train_P95),187328,446556.72,1292544.69,-7.1963
+baseline_full_train_raw_price,1192213,high_price_(>train_P95),12611,6253827.35,34315026.68,0.1576
+p999_trimmed_train_raw_price,1191020,full,199939,733093.42,9405962.45,0.0356
+p999_trimmed_train_raw_price,1191020,normal_price_(<=train_P95),187328,376956.17,619342.11,-0.8819
+p999_trimmed_train_raw_price,1191020,high_price_(>train_P95),12611,6023275.06,37376045.23,0.0007
+baseline_full_train_log1p_price,1192213,full,199939,707470.31,9282261.2,0.0608
+baseline_full_train_log1p_price,1192213,normal_price_(<=train_P95),187328,307389.78,528887.92,-0.3723
+baseline_full_train_log1p_price,1192213,high_price_(>train_P95),12611,6650399.89,36903390.07,0.0258

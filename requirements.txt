@@ -1,0 +1,12 @@
+# Pinned to the versions the models were trained and saved with.
+# TensorFlow is not needed: the dashboard serves the XGBoost + CatBoost stack only.
+streamlit==1.64.0
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+xgboost==3.2.0
+catboost==1.2.10
+plotly==7.1.0
+matplotlib==3.10.9
+seaborn==0.13.2
+huggingface_hub==2.1.1
